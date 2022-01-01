@@ -1,0 +1,18 @@
+[package]
+name = "libtask"
+version = "0.0.0"
+edition = "2021"
+description = "The advanced, extensible dependency management library"
+authors = ["Hugo Cuenca <hugo.cuenca.arana@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/hugo-cuenca/libtask/"
+repository = "https://github.com/hugo-cuenca/libtask/"
+license = "MITNFA"
+keywords = ["task", "dependency", "order", "parallel", "tasks"]
+exclude = [
+    ".idea/*",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
